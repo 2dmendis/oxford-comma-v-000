@@ -4,5 +4,5 @@ def oxford_comma(array)
   array.pop
   
   new_string = array.join(", ")
-  new_string << " and #{last}"
+  new_string << ", and #{last}"
 end
